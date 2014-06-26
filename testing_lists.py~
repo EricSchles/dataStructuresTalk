@@ -1,0 +1,13 @@
+from time import time
+list_insert = []
+list_append = []
+list_extend = []
+
+now =time()
+for i in xrange(10):
+    list_insert.insert(i)
+then = time()
+print now - then
+
+for i in xrange(10):
+    list_append.append(i)
